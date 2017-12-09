@@ -131,15 +131,33 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
 
+            .parallax {
+                /* The image used */
+                background-image: url("../img/header.jpg");
+
+                /* Full height */
+                height: 100vh;
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            @media only screen and (max-device-width: 992px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  padding-bottom: calc(10rem - 56px); }
+  /*background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; }*/
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
