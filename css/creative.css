@@ -131,9 +131,12 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
 
+.darkBack {
+  background-color: black;
+}
             .parallax {
                 /* The image used */
-                background-image: url("../img/header.jpg");
+                background-image: url("../img/kitchenBrownDark.png");
 
                 /* Full height */
                 height: 100vh;
