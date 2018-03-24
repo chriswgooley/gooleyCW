@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -22,6 +22,7 @@
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
+  <link href="css/slideshow.css" rel="stylesheet">
   <link href="css/creative.css" rel="stylesheet">
 
 </head>
@@ -55,20 +56,20 @@
   </nav>
 
   <header class="masthead parallax text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase">
               <strong>We've got you covered.</strong>
             </h1>
-            <hr>
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Whether you need regularly scheduled service, a one time clean, a tiny office, or a large property, Laura's Cleaning is there.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-          </div>
+          <hr>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5">Whether you need regularly scheduled service, a one time clean, a tiny office, or a large property, Laura's Cleaning is there.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
+    </div>
   </header>
 
   <section class="bg-primary" id="about">
@@ -77,18 +78,52 @@
         <div class="col-lg-8 mx-auto text-center">
           <h2 class="section-heading text-white">Personalized Service and Care</h2>
           <hr class="light my-4">
-          <p class="text-faded mb-4">Our years of experience have taught us that every client is different. With this in mind, our services are completely customizable to suit your individual needs. We start with a free consultation to assess the size, scope, and frequency. Then, we make a plan to clean your space to your satisfaction. Our loyal clients and their positive reviews have enabled us to keep growing over the last 12 years. <br /><br />We are licenced and insured, so you can rest easy knowing <i>we've got you covered.</i></p>
+          <p class="text-faded mb-4">Our years of experience have taught us that every client is different. With this in mind, our services are completely customizable to suit your individual needs. We start with a free consultation to assess the size, scope, and frequency. Then,
+            we make a plan to clean your space to your satisfaction. Our loyal clients and their positive reviews have enabled us to keep growing over the last 12 years. <br /><br />We are licenced and insured, so you can rest easy knowing <i>we've got you covered.</i></p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">What We Do!</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="photos">
+  <section class="lightBlack" id="photos">
     <div class="container">
-      <div class="row">
-        <layer id="photoLayer"></layer><div id="photoDiv"></div>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/lauraImg/photo(0).jpeg" style="width:100%">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/lauraImg/photo(1).jpeg" style="width:100%">
+          <!-- <div class="text">Caption Two</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/lauraImg/photo(2).jpeg" style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/lauraImg/photo(3).jpeg" style="width:100%">
+          <!-- <div class="text">Caption Three</div> -->
+        </div>
+
       </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
     </div>
   </section>
 
@@ -270,6 +305,7 @@
 
   <!-- Custom scripts for rotating images -->
   <script src="js/rotator.js"></script>
+  <script src="js/slideshow.js"></script>
 
 </body>
 
