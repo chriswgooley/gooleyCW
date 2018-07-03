@@ -16,7 +16,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: rgb(140, 64, 240);
 }
 
 hr.light {
@@ -24,14 +24,14 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: rgb(140, 64, 240);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: rgb(140, 64, 240);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: rgb(140, 64, 240) !important;
 }
 
 .bg-dark {
@@ -96,12 +96,12 @@ body {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: rgb(140, 64, 240);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: rgb(140, 64, 240);
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
@@ -112,11 +112,11 @@ body {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-  color: #F05F40;
+  color: rgb(140, 64, 240);
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: rgb(140, 64, 240) !important;
   background-color: transparent;
 }
 
@@ -149,16 +149,16 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: rgb(140, 64, 240);
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: rgb(140, 64, 240);
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #F05F40;
+    color: rgb(140, 64, 240);
   }
 }
 
@@ -305,7 +305,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: rgb(140, 64, 240) !important;
 }
 
 .btn {
@@ -321,15 +321,15 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: rgb(140, 64, 240);
+  border-color: rgb(140, 64, 240);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: rgb(140, 64, 240) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(161, 64, 240, 0.5) !important;
 }
