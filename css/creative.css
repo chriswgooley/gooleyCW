@@ -16,7 +16,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #4C0093;
+  border-color: #6C8064;
 }
 
 hr.light {
@@ -24,14 +24,14 @@ hr.light {
 }
 
 a {
-  color: #4C0093;
+  color: #6C8064;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #4C0093;
+  color: #6C8064;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,12 +96,12 @@ body {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #4C0093;
+  color: #6C8064;
   font-family: 'Calligraffitti', cursive;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #4C0093;
+  color: #6C8064;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
@@ -112,16 +112,32 @@ body {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-  color: #4C0093;
+  color: #6C8064;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #4C0093 !important;
+  color: #6C8064 !important;
   background-color: transparent;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
   background-color: transparent;
+}
+
+#secondNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#secondNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6C8064;
+  font-family: 'Calligraffitti', cursive;
 }
 
 #profilePic {
@@ -157,16 +173,33 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #4C0093;
+    color: #6C8064;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #4C0093;
+    color: #6C8064;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #4C0093;
+    color: #6C8064;
+  }
+
+  #secondNav {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #secondNav .navbar-brand {
+    color: #6C8064;
+  }
+  #secondNav .navbar-brand:focus, #secondNav .navbar-brand:hover {
+    color: #6C8064;
+  }
+  #secondNav .navbar-nav>li.nav-item>a.nav-link, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    color: #212529;
+  }
+  #secondNav .navbar-nav>li.nav-item>a.nav-link:hover, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
+    color: #6C8064;
   }
   #profilePic {
     width: 20vw;
@@ -186,7 +219,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/darkBackground.png");
+  background-image: url("../img/woods.png");
   /* Full height */
   height: 100vh;
   /* Create the parallax scrolling effect */
@@ -327,7 +360,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #4C0093 !important;
+  color: #6C8064 !important;
 }
 
 .btn {
@@ -343,13 +376,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #4C0093;
-  border-color: #4C0093;
+  background-color: #6C8064;
+  border-color: #6C8064;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #4C0093 !important;
+  background-color: #6C8064 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
