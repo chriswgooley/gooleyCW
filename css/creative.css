@@ -16,7 +16,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #6C8064;
+  border-color: #040403;
 }
 
 hr.light {
@@ -104,12 +104,12 @@ body {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #6C8064;
+  color: #040403;
   font-family: 'Calligraffitti', cursive;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #6C8064;
+  color: #040403;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
@@ -120,11 +120,11 @@ body {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-  color: #6C8064;
+  color: #040403;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #6C8064 !important;
+  color: #040403 !important;
   background-color: transparent;
 }
 
@@ -144,7 +144,7 @@ body {
 #secondNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #6C8064;
+  color: #040403;
   font-family: 'Calligraffitti', cursive;
 }
 
@@ -181,16 +181,16 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #6C8064;
+    color: #040403;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #6C8064;
+    color: #040403;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #6C8064;
+    color: #040403;
   }
 
   #secondNav {
@@ -198,16 +198,16 @@ body {
     background-color: #fff;
   }
   #secondNav .navbar-brand {
-    color: #6C8064;
+    color: #040403;
   }
   #secondNav .navbar-brand:focus, #secondNav .navbar-brand:hover {
-    color: #6C8064;
+    color: #040403;
   }
   #secondNav .navbar-nav>li.nav-item>a.nav-link, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #212529;
   }
   #secondNav .navbar-nav>li.nav-item>a.nav-link:hover, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #6C8064;
+    color: #040403;
   }
   #profilePic {
     width: 20vw;
@@ -227,7 +227,7 @@ body {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/woods.png");
+  background-image: url("../img/sunset.jpg");
   /* Full height */
   height: 100vh;
   /* Create the parallax scrolling effect */
@@ -375,7 +375,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #6C8064 !important;
+  color: #040403 !important;
 }
 
 .btn {
@@ -391,13 +391,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #6C8064;
-  border-color: #6C8064;
+  background-color: #040403;
+  border-color: #040403;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #6C8064 !important;
+  background-color: #040403 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -418,16 +418,23 @@ header.masthead p {
   transform: translateY(-50%);
 }
 
-/* Animation */
-.anim-typewriter{
-animation: typewriter 4s steps(44) 1s 1 normal both,
-           blinkTextCursor 500ms steps(44) infinite normal;
+.secondary-page {
+  margin-top: 70px;
+  text-align: center;
 }
-@keyframes typewriter{
-from{width: 0;}
-to{width: 24em;}
+
+.audio-players {
+  padding-bottom: 25px;
 }
-@keyframes blinkTextCursor{
-from{border-right-color: rgba(255,255,255,.75);}
-to{border-right-color: transparent;}
+
+.video-players {
+  padding-bottom: 30px;
+}
+
+.video-players .iframe{
+  max-width: 800px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  padding: 30px;
 }
