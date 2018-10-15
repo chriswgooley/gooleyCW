@@ -314,7 +314,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(47, 47, 147, 0.774);
+  background: rgba(47, 47, 147, 0.5);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -348,6 +348,14 @@ header.masthead p {
 
 .portfolio-box:focus {
   outline: none;
+}
+
+.project-name a {
+  text-decoration: underline;
+}
+
+.project-name a:hover {
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
