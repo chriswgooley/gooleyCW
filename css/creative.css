@@ -24,14 +24,22 @@ hr.light {
 }
 
 a {
-  color: #6C8064;
+  color: #FFFFFF;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #6C8064;
+  color: white;
+}
+
+a.links {
+  color:black;
+}
+
+a.links:hover {
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -351,6 +359,13 @@ header.masthead p {
   }
 }
 
+@media (max-width: 768px) {
+  .portfolio-box .portfolio-box-caption {
+    background: rgba(47, 47, 147, 0.5);
+    opacity: .9;
+  }
+}
+
 .portfolio-link {
   color: white;
 }
@@ -392,7 +407,7 @@ header.masthead p {
 
 .line-1{
   position: relative;
-  top: 50%;  
+  top: 50%;
   width: 24em;
   margin: 0 auto;
   border-right: 2px solid rgba(255,255,255,.75);
@@ -400,7 +415,7 @@ header.masthead p {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-50%);    
+  transform: translateY(-50%);
 }
 
 /* Animation */
