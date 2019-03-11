@@ -4,6 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+.links-contact {
+  padding-bottom: 40px;
+}
+
+#links, #contact {
+  padding: 0px 0px 0px 0px;
+}
+
 body, html {
   width: 100%;
   height: 100%;
@@ -59,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5em 0em 1.5em 0em;
 }
 
 .section-heading {
@@ -149,11 +157,11 @@ body {
 }
 
 #profilePic {
-  width: 50vw;
-  height: 50vw;
+  width: 50vmin;
+  height: 50vmin;
   display: block;
   margin: auto;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 @media (min-width: 992px) {
