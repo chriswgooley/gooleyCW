@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<label>
+		First Name
+		<input name="firstName" type="text" placeholder="John/Jane" required>		
+	</label>
+	<label>
+		Last Name
+		<input name="lastName" type="text" placeholder="Smith" required>
+	</label>
+
+	<p></p>
+
+	<label>
+		Male
+		<input name="gender" type="radio" value="MALE">
+	</label>
+	<label>
+		Female
+		<input name="gender" type="radio" value="FEMALE">
+	</label>
+	<label>
+		Other
+		<input name="gender" type="radio" value="OTHER">
+	</label>
+
+	<p></p>
+
+	<label>
+		Email
+		<input name="email" type="email" placeholder="your email" required>		
+	</label>
+	<label>
+		Password
+		<input name="password" type="password" pattern=".{5,10}" title="Password must be between 5 and 10 characters" required>
+	</label>
+<!-- 	<label>
+		Password
+		<input name="password" type="password" minlength="5" maxlength="10" title="Password must be between 5 and 10 characters" required>
+	</label> -->
+
+	<p></p>
+
+	<label>
+		Birthdate:
+		<select name="birthMonth">
+			<option value="MONTH">Month</option>
+			<option value="JANUARY">Jan</option>
+			<option value="FEBRUARY">Feb</option>
+			<option value="MARCH">Mar</option>
+			<option value="APRIL">Apr</option>
+			<option value="MAY">May</option>
+		</select>
+		<select name="birthDay">
+			<option value="01">1</option>
+			<option value="02">2</option>
+			<option value="03">3</option>
+			<option value="04">4</option>
+			<option value="05">5</option>
+			<option value="06">6</option>
+			<option value="07">7</option>
+			<option value="08">8</option>
+			<option value="09">9</option>
+			<option value="10">10</option>
+		</select>
+		<select name="birthYear">
+			<option value="2018">2018</option>
+			<option value="2017">2017</option>
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+
+		</select>
+	</label>
+
+	<p></p>
+
+	<label>
+		I agree to the terms and conditions:&nbsp;
+		<input type="checkbox" name="terms" value="AGREE" required>
+	</label>
+
+	<p></p>
+
+	<input type="submit">
+
+</form>
+
+</body>
+</html>

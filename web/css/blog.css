@@ -1,0 +1,45 @@
+body {
+	border: 20px solid #bdc3c7;
+	font-family: Source Sans Pro;
+	font-size: 18px;
+	margin: 20px auto 20px auto;
+	max-width: 800px;
+	width: 80%;
+}
+
+h1 {
+	color: #2c3e50;
+	font-size: 2.00rem;
+	font-weight: 900;
+	margin: 20px auto;
+}
+
+h2 {
+	color: #3498db;
+	font-size: 1.25rem;
+	letter-spacing: 0.25rem;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+hr {
+	background-color: #bdc3c7;
+	border: 0 none;
+	height: 1px;
+	margin: 30px auto 0px auto;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 20px auto 0px auto;
+}
+
+p.firstParagraph {
+	border-left: 8px solid #bdc3c7;
+	padding-left: 1%;
+}
+
+.post {
+	margin: 20px 3% 30px 3%;
+}

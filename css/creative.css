@@ -4,12 +4,30 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+.webPortfolio {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.webPortfolio#heading {
+    font-weight: bold;
+}
+
+.webPortfolio>a, .webPortfolio>a:hover {
+  font-family: Open Sans;
+  color: #240047
+}
+  
 .links-contact {
   padding-bottom: 40px;
 }
 
 #links, #contact {
   padding: 0px 0px 0px 0px;
+}
+
+#newTabNote {
+  padding: 30px 10%;
 }
 
 body, html {
@@ -32,22 +50,22 @@ hr.light {
 }
 
 a {
-  color: #FFFFFF;
+  color: #240047;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: white;
+  color: #240047;
 }
 
 a.links {
-  color:black;
+  color: #240047;
 }
 
 a.links:hover {
-  color: black;
+  color: #240047;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,12 +76,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #240047!important;
 }
 
-.bg-dark {
-  background-color: #212529 !important;
-}
-
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: #240047;
 }
 
 section {
@@ -75,25 +89,25 @@ section {
 }
 
 ::-moz-selection {
-  color: #fff;
-  background: #212529;
+  color: #240047;
+  background: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
-  background: #212529;
+  color: #240047;
+  background: #fff;
   text-shadow: none;
 }
 
 img::selection {
-  color: #fff;
-  background: transparent;
+  color: #240047;
+  background: #fff;
 }
 
 img::-moz-selection {
-  color: #fff;
-  background: transparent;
+  color: #240047;
+  background: #fff;
 }
 
 body {
@@ -102,7 +116,7 @@ body {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #240047;
+  background-color: #fff;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -112,32 +126,32 @@ body {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #040403;
+  color: #240047;
   font-family: 'Calligraffitti', cursive;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #040403;
+  color: #240047;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: #240047;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-  color: #040403;
+  color: #240047;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #040403 !important;
-  background-color: transparent;
+  color: #240047 !important;
+  background-color: #fff;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 #secondNav {
@@ -152,7 +166,7 @@ body {
 #secondNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #040403;
+  color: #240047;
   font-family: 'Calligraffitti', cursive;
 }
 
@@ -166,39 +180,39 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: #fff;
+    background-color: #fff;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #240047;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #240047;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #240047;
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #fff;
+    color: #240047;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #040403;
+    color: #240047;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #040403;
+    color: #240047;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #212529;
+    color: #240047;
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #040403;
+    color: #240047;
   }
 
   #secondNav {
@@ -206,16 +220,16 @@ body {
     background-color: #fff;
   }
   #secondNav .navbar-brand {
-    color: #040403;
+    color: #240047;
   }
   #secondNav .navbar-brand:focus, #secondNav .navbar-brand:hover {
-    color: #040403;
+    color: #240047;
   }
   #secondNav .navbar-nav>li.nav-item>a.nav-link, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #212529;
+    color: #240047;
   }
   #secondNav .navbar-nav>li.nav-item>a.nav-link:hover, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #040403;
+    color: #240047;
   }
   #profilePic {
     width: 20vw;
@@ -321,7 +335,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: #240047;
   background: rgba(47, 47, 147, 0.5);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -383,15 +397,15 @@ header.masthead p {
 }
 
 .portfolio-link {
-  color: white;
+  color: #240047;
 }
 
 .portfolio-link:hover{
-  color: lightyellow;
+  color: #240047;
 }
 
 .text-primary {
-  color: #040403 !important;
+  color: #240047 !important;
 }
 
 .btn {
@@ -412,7 +426,7 @@ header.masthead p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: #240047;
   background-color: #040403 !important;
 }
 
