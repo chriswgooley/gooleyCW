@@ -7,6 +7,7 @@
 .webPortfolio {
   font-family: Open Sans;
   text-align: center;
+  padding-top: 10px;
 }
 
 .webPortfolio#heading {
@@ -27,7 +28,7 @@
 }
 
 #newTabNote {
-  padding: 30px 10%;
+  padding: 0px 10% 25px 10%;
 }
 
 body, html {
@@ -134,24 +135,24 @@ body {
   color: #240047;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+.nav-item {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+}
+
+.nav-item:hover {
+  background-color: #240047;
+  color: white; 
+}
+
+#ohMyGodWork {
   color: #240047;
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-  color: #240047;
-}
-
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #240047 !important;
-  background-color: #fff;
-}
-
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
-  background-color: #fff;
+#ohMyGodWork:hover {
+  color: white;
 }
 
 #secondNav {
@@ -189,15 +190,7 @@ body {
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #240047;
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link {
-    padding: 0.5rem 1rem;
-  }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #240047;
-  }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #240047;
-  }
+
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
@@ -206,12 +199,6 @@ body {
     color: #240047;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #240047;
-  }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #240047;
-  }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
     color: #240047;
   }
 
@@ -225,12 +212,7 @@ body {
   #secondNav .navbar-brand:focus, #secondNav .navbar-brand:hover {
     color: #240047;
   }
-  #secondNav .navbar-nav>li.nav-item>a.nav-link, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: #240047;
-  }
-  #secondNav .navbar-nav>li.nav-item>a.nav-link:hover, #secondNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #240047;
-  }
+
   #profilePic {
     width: 20vw;
     height: 20vw;
@@ -269,13 +251,6 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
 }
-
-/*background-image: url("../img/header.jpg");
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }*/
 
 header.masthead hr {
   margin-top: 30px;
@@ -467,4 +442,25 @@ header.masthead p {
   width: auto;
   height: auto;
   padding: 30px;
+}
+
+.portfolio-headings {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#all-white {
+  color: white;
+}
+
+#print-samples {
+  padding: 20px;
+}
+
+.portfolio-image {
+  border: 1px solid black;
+}
+
+.portfolio-section  {
+  padding-top: 0px;
 }
